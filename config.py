@@ -1,7 +1,8 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:12QWaszx34//@localhost/main_db_v1'
+# SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:12QWaszx34//@localhost/main_db_v1'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:12qwaszx34//@localhost/AppleDB_v2'
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
 # def get_env_variable(name):
 #     try:
